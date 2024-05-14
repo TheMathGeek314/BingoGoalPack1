@@ -1,0 +1,405 @@
+﻿[
+    {
+        "name": "Mato",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Room_nailmaster",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crossroads Hot Springs",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Crossroads_30",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crossroads Stag",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Crossroads_47",
+            "expectedValue": true
+        }
+
+    },
+    {
+        "name": "Salubra",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Crossroads_04",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ancestral Mound",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Crossroads_ShamanTemple",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Waterfall",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus1_01b",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Stone Sanctuary",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus1_37",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Greenpath Toll",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus1_31",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Greenpath Stag",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus1_16_alt",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Lake of Unn",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Room_Slug_Shrine",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Sheo",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus1_15",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Archives",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus3_archive",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Queen's Station",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus2_02",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Leg Eater",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus2_26",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Bretta",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus2_13",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Mantis Village",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus2_31",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Quirrel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Ruins1_02",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Toll",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Ruins1_31",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Storerooms",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Ruins1_29",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Watcher's Spire",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Ruins1_18",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "King's Station",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Ruins2_08",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Pleasure House",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Ruins_Bathhouse",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Waterways",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Waterways_02",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Deepnest Hot Springs",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Deepnest_30",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Failed Tramway",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Deepnest_14",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Beast's Den bench",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Deepnest_Spider_Town",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Basin Toll",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Abyss_18",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Hidden Station",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Abyss_22",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Oro",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Deepnest_East_06",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Camp",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Deepnest_East_13",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Colosseum",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Room_Colosseum_02",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Hive",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Hive_01",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Peak Dark Room",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Mines_29",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Guardian",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Mines_18",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Resting Grounds Stag",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_RestingGrounds_09",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Grey Mourner",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_RestingGrounds_12",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Queen's Gardens Cornifer",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus1_24",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Queen's Gardens Toll",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus3_50",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Queen's Gardens Stag",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Fungus3_40",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Upper Tram",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Room_Tram_RG",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Lower Tram",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Room_Tram",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Gate hardsave",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hardsave_Fungus2_21",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Desolate Dive hardsave",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hardsave_Ruins1_24",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Lurien hardsave",
+        "condition": {
+            "type": "Bool",
+            "variableName": "lurienDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Monomon hardsave",
+        "condition": {
+            "type": "Bool",
+            "variableName": "monomonDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Beast's Den / Herrah hardsave",
+        "condition": {
+            "type": "Or",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "hegemolDefeated",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "hardsave_Deepnest_Spider_Town",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "King's Brand hardsave",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hardsave_Room_Wyrm",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Shade Cloak hardsave",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hardsave_Abyss_10",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Godseeker hardsave",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hardsave_GG_Waterways",
+            "expectedValue": true
+        }
+    }
+]

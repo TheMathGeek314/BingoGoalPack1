@@ -1,0 +1,355 @@
+﻿[
+    {
+        "name": "Crossroads Wall",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Crossroads_03",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crossroads Guarded",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Crossroads_48",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crossroads Spikes",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Crossroads_31",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crossroads Vengefly",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Crossroads_05",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crossroads Acid",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Crossroads_35",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Peak Spikes",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Mines_03",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Peak Crown",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Mines_24",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Peak Crystal Heart",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Mines_31",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Peak Crushers",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Mines_19",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Peak Bottom Lever",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Mines_04",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Peak Mound",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Mines_35",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Peak Mimics",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Mines_16",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Resting Ground Crypts",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_RestingGrounds_10",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Sanctum Dive",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Ruins1_32",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Below Sanctum",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Ruins1_05",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Below Love Tower",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Ruins2_07",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Guard House",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Ruins_House_01",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Spire",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Ruins2_03",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Waterways Center",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Waterways_04",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Waterways Isma",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Waterways_13",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Waterways Hwurmps",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Waterways_14",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Fungal Bouncy",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus2_18",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Fungal Spore Shroom",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus2_20",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Deepnest Mimics",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Deepnest_36",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Deepnest Nosk",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Deepnest_31",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Deepnest Spikes",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Deepnest_03",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Deepnest Dark",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Deepnest_39",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Deepnest Beast's Den",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Deepnest_Spider_Town",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Fog Canyon Archives",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus3_47",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Queen's Gardens Below Stag",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus3_10",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Queen's Gardens White Lady",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus3_48",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Queen's Gardens Upper",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus3_22",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Greenpath Moss Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus1_21",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Greenpath Hunter",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus1_07",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Greenpath Cornifer",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus1_06",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Greenpath Vessel Fragment",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus1_13",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Cliffs Baldur Shell",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Fungus1_28",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Hive External",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Hive_03",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Hive Internal",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Hive_04",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Basin Dive",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Abyss_17",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Basin Wings",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Abyss_19",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Collector (3)",
+        "condition": {
+            "type": "Int",
+            "variableName": "grubSaved_single_Ruins2_11",
+            "expectedQuantity": 3,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Kingdom's Edge Oro",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Deepnest_East_14",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Kingdom's Edge Center",
+        "condition": {
+            "type": "Bool",
+            "variableName": "grubSaved_single_Deepnest_East_11",
+            "expectedValue": true
+        }
+    }
+]

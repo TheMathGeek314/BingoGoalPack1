@@ -1,0 +1,691 @@
+﻿[
+    {
+        "name": "All Fungal Benches",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus2_02",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus2_26",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus2_13",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus2_31",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "All Greenpath Benches",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus1_01b",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus1_37",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus1_31",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus1_16_alt",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Room_Slug_Shrine",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus1_15",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Both Waterways Arenas",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "arenaBeat_Waterways_09",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "arenaBeat_Waterways_13",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Buy the QG and Fog Canyon maps",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "mapFogCanyon",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "mapRoyalGardens",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Charged Lumafly Journal Entry",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "killedZapBug",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "hasJournal",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Collect 4 Simple Keys",
+        "condition": {
+            "type": "Int",
+            "variableName": "simpleKeys",
+            "expectedQuantity": 4,
+            "state": "Added"
+        }
+    },
+    {
+        "name": "Complete the Ancestral Mound Root",
+        "condition": {
+            "type": "Bool",
+            "variableName": "dreamTreeCompleted_SHAMAN_TEMPLE",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Decipher Hunter's Notes: Maskfly + Shrumeling",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Int",
+                    "variableName": "killsPigeon",
+                    "expectedQuantity": 15,
+                    "state": "Removed"
+                },
+                {
+                    "type": "Int",
+                    "variableName": "killsMushroomBaby",
+                    "expectedQuantity": 20,
+                    "state": "Removed"
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "hasJournal",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Defeat 3 dream warriors",
+        "condition": {
+            "type": "Some",
+            "amount": 3,
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "killedGhostGalien",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "killedGhostAladar",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "killedGhostHu",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "killedGhostMarmu",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "killedGhostMarkoth",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "killedGhostNoEyes",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "killedGhostXero",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Dream Nail both Mace Bug + Leg Eater Bench",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "dreamNailedMaceBug",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "dreamDialogue_Fungus2_26_Dream Dialogue (1)",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Dream Nail Poggy Thorax and Blue Child Joni",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "killedPoggyGhost",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "killedJoniGhost",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Fungal Core Mask Shard",
+        "condition": {
+            "type": "Bool",
+            "variableName": "collectedCoreShard",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Give Divine a Charm",
+        "condition": {
+            "type": "Or",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "gaveFragileHeart",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "gaveFragileGreed",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "gaveFragileStrength",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Hallownest Crown Pale Ore",
+        "condition": {
+            "type": "Or",
+            "conditions": [
+                {
+                    "type": "And",
+                    "conditions": [
+                        {
+                            "type": "Bool",
+                            "variableName": "checked_Pale_Ore-Crystal_Peak",
+                            "expectedValue": true
+                        },
+                        {
+                            "type": "Bool",
+                            "variableName": "randomized_Pale_Ore-Crystal_Peak",
+                            "expectedValue": true
+                        }
+                    ]
+                },
+                {
+                    "type": "And",
+                    "conditions": [
+                        {
+                            "type": "Bool",
+                            "variableName": "gotShiny_14_Mines_34",
+                            "expectedValue": true
+                        },
+                        {
+                            "type": "Bool",
+                            "variableName": "randomized_Pale_Ore-Crystal_Peak",
+                            "expectedValue": false
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "name": "Interact with 4 Quirrel locations (outside Archives)",
+        "condition": {
+            "type": "Some",
+            "amount": 4,
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "quirrel_Room_temple",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "quirrel_Room_Slug_Shrine",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "quirrel_Fungus2_01",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "quirrel_Fungus2_14",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "quirrel_Ruins1_02",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "quirrel_Deepnest_30",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "quirrel_Mines_13",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "quirrel_Fungus3_47",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "quirrel_Crossroads_50",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Interact with Cornifer in Waterways",
+        "condition": {
+            "type": "Bool",
+            "variableName": "cornifer_Waterways_09",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Kill 10 Mantis Petras",
+        "condition": {
+            "type": "Int",
+            "variableName": "killsMantisHeavyFlyer",
+            "expectedQuantity": 10,
+            "state": "Removed"
+        }
+    },
+    {
+        "name": "Kill 3 Flukemungas",
+        "condition": {
+            "type": "Int",
+            "variableName": "killsFatFluke",
+            "expectedQuantity": 3,
+            "state": "Removed"
+        }
+    },
+    {
+        "name": "Kill the Mossy Vagabonds",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Int",
+                    "variableName": "killsMossKnightFat",
+                    "expectedQuantity": 3,
+                    "state": "Removed"
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "lurienDefeated",
+                    "expectedValue": false
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "hegemolDefeated",
+                    "expectedValue": false
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "monomonDefeated",
+                    "expectedValue": false
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "hasDoubleJump",
+                    "expectedValue": false
+                }
+            ]
+        }
+    },
+    {
+        "name": "Nailmaster's Glory",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_26",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Nothing? (junk pit chest)",
+        "condition": {
+            "type": "Bool",
+            "variableName": "chestOpen_GG_Waterways_nothing",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Open 3 geo chests (not in junk pit)",
+        "condition": {
+            "type": "Some",
+            "amount": 3,
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Fungus1_28",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Crossroads_10",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Fungus2_31",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Deepnest_45_v02",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Fungus1_13",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Mines_37",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_RestingGrounds_10",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Ruins1_32",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Ruins2_03",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Open 6 geo chests (not in junk pit)",
+        "condition": {
+            "type": "Some",
+            "amount": 6,
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Fungus1_28",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Crossroads_10",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Fungus2_31",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Deepnest_45_v02",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Fungus1_13",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Mines_37",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_RestingGrounds_10",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Ruins1_32",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "chestOpen_Ruins2_03",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Read Bretta's diary",
+        "condition": {
+            "type": "Bool",
+            "variableName": "readDiary_Room_Bretta_Diary",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Save the 2 grubs in Basin",
+        "condition": {
+            "type": "Or",
+            "conditions": [
+                {
+                    "type": "And",
+                    "conditions": [
+                        {
+                            "type": "Bool",
+                            "variableName": "randomized_Grub-Basin_Requires_Wings",
+                            "expectedValue": true
+                        },
+                        {
+                            "type": "Bool",
+                            "variableName": "checked_Grub-Basin_Requires_Wings",
+                            "expectedValue": true
+                        },
+                        {
+                            "type": "Bool",
+                            "variableName": "checked_Grub-Basin_Requires_Dive",
+                            "expectedValue": true
+                        }
+                    ]
+                },
+                {
+                    "type": "And",
+                    "conditions": [
+                        {
+                            "type": "Bool",
+                            "variableName": "randomized_Grub-Basin_Requires_Wings",
+                            "expectedValue": false
+                        },
+                        {
+                            "type": "Int",
+                            "variableName": "grubsSaved_ABYSS",
+                            "expectedQuantity": 2,
+                            "state": "Current"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "name": "Save the 2 grubs in Hive",
+        "condition": {
+            "type": "Int",
+            "variableName": "grubsSaved_HIVE",
+            "expectedQuantity": 2,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Sit at 4 Toll Benches",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus1_31",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Ruins1_31",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Abyss_18",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "bench_Fungus3_50",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Sit down in Failed Tramway",
+        "condition": {
+            "type": "Bool",
+            "variableName": "bench_Deepnest_14",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Slash 10 different soul totems",
+        "condition": {
+            "type": "Int",
+            "variableName": "soulTotemsHit",
+            "expectedQuantity": 10,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Slash Zote's corpse in Greenpath",
+        "condition": {
+            "type": "Bool",
+            "variableName": "neglectedZote",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Soul Eater + Soul Catcher",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "gotCharm_20",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "gotCharm_21",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Talk to Divine with Crest Equipped",
+        "condition": {
+            "type": "Bool",
+            "variableName": "metDivineWithCrest",
+            "expectedValue": true
+        }
+    }
+]
