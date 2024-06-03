@@ -10,19 +10,19 @@ using MonoMod.RuntimeDetour;
 namespace BingoGoalPack1 {
     public class BingoGoalPack1: Mod{
         new public string GetName() => "BingoGoalPack1";
-        public override string GetVersion() => "1.2.1.0";
+        public override string GetVersion() => "1.2.2.0";
         public override int LoadPriority() => 8;
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects) {
             VariableProxy.Setup(Log);
 
             string hk_data = BingoSquareReader.GetHKDataFolderName();
-            string path = @$".\{hk_data}\Managed\Mods\";
+            string path = @$"./{hk_data}/Managed/Mods/";
 
             //set up goal lists
             Dictionary<string, BingoGoal> vanillaGoals = GameModesManager.GetVanillaGoals();
 
-            BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1\\Squares\\Extended.json");
+            BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1/Squares/Extended.json");
             Dictionary<string, BingoGoal> extendedGoals = setupExtendedDict();
             GameModesManager.RegisterGoalsForCustom("Extended", extendedGoals);
             Dictionary<string, BingoGoal> extendedPlusGoals = setupExtendedPlusDict();
@@ -36,16 +36,16 @@ namespace BingoGoalPack1 {
             GameMode mode_extendedPlus = new GameMode("Extended+", extendedPlusGoals);
             GameModesManager.AddGameMode(mode_extendedPlus);
 
-            Dictionary<string, BingoGoal> hardsaveGoals = BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1\\Squares\\BenchBingo.json");
+            Dictionary<string, BingoGoal> hardsaveGoals = BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1/Squares/BenchBingo.json");
             setupHardsaveDict(hardsaveGoals);
             GameMode mode_hardsaves = new GameMode("Hardsaves", hardsaveGoals);
             GameModesManager.AddGameMode(mode_hardsaves);
 
-            Dictionary<string, BingoGoal> grubGoals = BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1\\Squares\\GrubBingo.json");
+            Dictionary<string, BingoGoal> grubGoals = BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1/Squares/GrubBingo.json");
             GameMode mode_grubs = new GameMode("Grubs", grubGoals);
             GameModesManager.AddGameMode(mode_grubs);
 
-            BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1\\Squares\\GodhomeBingo.json");
+            BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1/Squares/GodhomeBingo.json");
             GameMode mode_godhome = new GodhomeMode();
             GameModesManager.AddGameMode(mode_godhome);
 
@@ -97,7 +97,7 @@ namespace BingoGoalPack1 {
 
         private Dictionary<string, BingoGoal> setupExtendedPlusDict() {
             Dictionary<string, BingoGoal> output = new Dictionary<string, BingoGoal>();
-            string[] goals = { "10 Lifeblood masks at the same time", "All Fungal Benches", "All Greenpath Benches", "Both Waterways Arenas", "Bow to Moss Prophet, dead or alive", "Bow to the Fungal Core Elder", "Charged Lumafly Journal Entry", "Check the journal below Stone Sanctuary", "Defeat 3 dream warriors", "Dream Nail both Mace Bug + Leg Eater Bench", "Dream Nail Marissa", "Dream Nail Willoh's meal", "Equip 5 Charms at the same time", "Hit the Oro scarecrow up until the hoppers spawn", "Interact with 4 Quirrel locations (outside Archives)", "Kill 10 Mantis Petras", "Kill 3 Flukemungas", "Kill a Durandoo", "Kill a Lightseed", "Kill the Mossy Vagabonds", "Kill three different Great Husk Sentries", "Kill two different Alubas", "Look through Lurien's telescope", "Nailmaster's Glory", "Nothing? (junk pit chest)", "Obtain World Sense", "Open the Dirtmouth / Crystal Peaks elevator", "Sit at 4 Toll Benches", "Sit down in Failed Tramway", "Slash 10 different soul totems", "Slash two Shade Gates", "Swat Tiso's shield away from his corpse", "Talk to Divine with Crest Equipped", "Visit all 4 shops (Sly, Iselda, Salubra and Leg Eater)" };
+            string[] goals = { "10 Lifeblood masks at the same time", "All Fungal Benches", "All Greenpath Benches", "Both Waterways Arenas", "Bow to Moss Prophet, dead or alive", "Bow to the Fungal Core Elder", "Charged Lumafly Journal Entry", "Check the journal below Stone Sanctuary", "Defeat 3 dream warriors", "Dream Nail both Mace Bug + Leg Eater Bench", "Dream Nail Marissa", "Dream Nail Willoh's meal", "Equip 5 Charms at the same time", "Hit the Oro scarecrow up until the hoppers spawn", "Interact with 4 Quirrel locations (outside Archives)", "Kill 10 Mantis Petras", "Kill 3 Flukemungas", "Kill a Durandoo", "Kill a Lightseed", "Kill the Mossy Vagabonds", "Kill three different Great Husk Sentries", "Kill two different Alubas", "Look through Lurien's telescope", "Nailmaster's Glory", "Nothing? (junk pit chest)", "Obtain World Sense", "Open the Dirtmouth / Crystal Peak elevator", "Sit at 4 Toll Benches", "Sit down in Failed Tramway", "Slash 10 different soul totems", "Slash two Shade Gates", "Swat Tiso's shield away from his corpse", "Talk to Divine with Crest Equipped", "Visit all 4 shops (Sly, Iselda, Salubra and Leg Eater)" };
             foreach(string goal in goals) {
                 output.Add(goal, new BingoGoal(goal));
             }
@@ -113,7 +113,7 @@ namespace BingoGoalPack1 {
             output["Kill the Mossy Vagabonds"].exclusions.Add("Bow to Moss Prophet, dead or alive" );
             output["Look through Lurien's telescope"].exclusions.Add("Lurien" );
             output["Nothing? (junk pit chest)"].exclusions.Add("Obtain Godtuner" );
-            output["Open the Dirtmouth / Crystal Peaks elevator"].exclusions.Add("Kill 4 Mimics" );
+            output["Open the Dirtmouth / Crystal Peak elevator"].exclusions.Add("Kill 4 Mimics" );
             return output;
         }
 

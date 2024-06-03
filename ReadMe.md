@@ -8,5 +8,5 @@ Without this mod, BingoSync provides 129 goals. With this mod, you can now have 
 
 This mod also includes additional board types such as Grub Bingo, Bench/Hardsave Bingo, and Hall of Gods Bingo.
 
-Credit to TheMathGeek_314 for implementing the automarking logic for new goals
-Credit to Alph4 for the BingoSyncExtension mod made for this project
+Credit to TheMathGeek_314 for implementing the automarking logic for new goals.
+Credit to Alph4 for the BingoSyncExtension mod made for this project.
