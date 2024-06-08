@@ -6,23 +6,25 @@ using UnityEngine;
 using System.Reflection;
 using MonoMod.Utils;
 using MonoMod.RuntimeDetour;
+using System.IO;
 
 namespace BingoGoalPack1 {
     public class BingoGoalPack1: Mod{
         new public string GetName() => "BingoGoalPack1";
-        public override string GetVersion() => "1.2.2.0";
+        public override string GetVersion() => "1.2.3.1";
         public override int LoadPriority() => 8;
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects) {
             VariableProxy.Setup(Log);
 
-            string hk_data = BingoSquareReader.GetHKDataFolderName();
-            string path = @$"./{hk_data}/Managed/Mods/";
+            //string hk_data = BingoSquareReader.GetHKDataFolderName();
+            //string path = @$"./{hk_data}/Managed/Mods/";
+            string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
             //set up goal lists
             Dictionary<string, BingoGoal> vanillaGoals = GameModesManager.GetVanillaGoals();
 
-            BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1/Squares/Extended.json");
+            BingoSquareInjector.ProcessGoalsFile(path + "/Squares/Extended.json");
             Dictionary<string, BingoGoal> extendedGoals = setupExtendedDict();
             GameModesManager.RegisterGoalsForCustom("Extended", extendedGoals);
             Dictionary<string, BingoGoal> extendedPlusGoals = setupExtendedPlusDict();
@@ -36,16 +38,16 @@ namespace BingoGoalPack1 {
             GameMode mode_extendedPlus = new GameMode("Extended+", extendedPlusGoals);
             GameModesManager.AddGameMode(mode_extendedPlus);
 
-            Dictionary<string, BingoGoal> hardsaveGoals = BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1/Squares/BenchBingo.json");
+            Dictionary<string, BingoGoal> hardsaveGoals = BingoSquareInjector.ProcessGoalsFile(path + "/Squares/BenchBingo.json");
             setupHardsaveDict(hardsaveGoals);
             GameMode mode_hardsaves = new GameMode("Hardsaves", hardsaveGoals);
             GameModesManager.AddGameMode(mode_hardsaves);
 
-            Dictionary<string, BingoGoal> grubGoals = BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1/Squares/GrubBingo.json");
+            Dictionary<string, BingoGoal> grubGoals = BingoSquareInjector.ProcessGoalsFile(path + "/Squares/GrubBingo.json");
             GameMode mode_grubs = new GameMode("Grubs", grubGoals);
             GameModesManager.AddGameMode(mode_grubs);
 
-            BingoSquareInjector.ProcessGoalsFile(path + "BingoGoalPack1/Squares/GodhomeBingo.json");
+            BingoSquareInjector.ProcessGoalsFile(path + "/Squares/GodhomeBingo.json");
             GameMode mode_godhome = new GodhomeMode();
             GameModesManager.AddGameMode(mode_godhome);
 
