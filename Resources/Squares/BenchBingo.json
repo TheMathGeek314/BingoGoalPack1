@@ -1,6 +1,6 @@
 ﻿[
     {
-        "name": "Mato",
+        "name": "Mato bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Room_nailmaster",
@@ -8,7 +8,7 @@
         }
     },
     {
-        "name": "Crossroads Hot Springs",
+        "name": "Crossroads Hot Springs bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Crossroads_30",
@@ -16,7 +16,7 @@
         }
     },
     {
-        "name": "Crossroads Stag",
+        "name": "Crossroads Stag bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Crossroads_47",
@@ -25,7 +25,7 @@
 
     },
     {
-        "name": "Salubra",
+        "name": "Salubra bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Crossroads_04",
@@ -33,7 +33,7 @@
         }
     },
     {
-        "name": "Ancestral Mound",
+        "name": "Ancestral Mound bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Crossroads_ShamanTemple",
@@ -41,7 +41,7 @@
         }
     },
     {
-        "name": "Waterfall",
+        "name": "Waterfall bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus1_01b",
@@ -49,7 +49,7 @@
         }
     },
     {
-        "name": "Stone Sanctuary",
+        "name": "Stone Sanctuary bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus1_37",
@@ -57,7 +57,7 @@
         }
     },
     {
-        "name": "Greenpath Toll",
+        "name": "Greenpath Toll bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus1_31",
@@ -65,7 +65,7 @@
         }
     },
     {
-        "name": "Greenpath Stag",
+        "name": "Greenpath Stag bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus1_16_alt",
@@ -73,7 +73,7 @@
         }
     },
     {
-        "name": "Lake of Unn",
+        "name": "Lake of Unn bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Room_Slug_Shrine",
@@ -81,7 +81,7 @@
         }
     },
     {
-        "name": "Sheo",
+        "name": "Sheo bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus1_15",
@@ -89,7 +89,7 @@
         }
     },
     {
-        "name": "Archives",
+        "name": "Archives bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus3_archive",
@@ -97,7 +97,7 @@
         }
     },
     {
-        "name": "Queen's Station",
+        "name": "Queen's Station bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus2_02",
@@ -105,7 +105,7 @@
         }
     },
     {
-        "name": "Leg Eater",
+        "name": "Leg Eater bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus2_26",
@@ -113,7 +113,7 @@
         }
     },
     {
-        "name": "Bretta",
+        "name": "Bretta bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus2_13",
@@ -121,7 +121,7 @@
         }
     },
     {
-        "name": "Mantis Village",
+        "name": "Mantis Village bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus2_31",
@@ -129,7 +129,7 @@
         }
     },
     {
-        "name": "City Quirrel",
+        "name": "City Quirrel bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Ruins1_02",
@@ -137,7 +137,7 @@
         }
     },
     {
-        "name": "City Toll",
+        "name": "City Toll bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Ruins1_31",
@@ -145,7 +145,7 @@
         }
     },
     {
-        "name": "City Storerooms",
+        "name": "City Storerooms bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Ruins1_29",
@@ -153,7 +153,7 @@
         }
     },
     {
-        "name": "Watcher's Spire",
+        "name": "Watcher's Spire bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Ruins1_18",
@@ -161,7 +161,7 @@
         }
     },
     {
-        "name": "King's Station",
+        "name": "King's Station bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Ruins2_08",
@@ -169,7 +169,7 @@
         }
     },
     {
-        "name": "Pleasure House",
+        "name": "Pleasure House bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Ruins_Bathhouse",
@@ -177,7 +177,7 @@
         }
     },
     {
-        "name": "Waterways",
+        "name": "Waterways bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Waterways_02",
@@ -185,7 +185,7 @@
         }
     },
     {
-        "name": "Deepnest Hot Springs",
+        "name": "Deepnest Hot Springs bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Deepnest_30",
@@ -193,7 +193,7 @@
         }
     },
     {
-        "name": "Failed Tramway",
+        "name": "Failed Tramway bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Deepnest_14",
@@ -209,7 +209,7 @@
         }
     },
     {
-        "name": "Basin Toll",
+        "name": "Basin Toll bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Abyss_18",
@@ -217,7 +217,7 @@
         }
     },
     {
-        "name": "Hidden Station",
+        "name": "Hidden Station bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Abyss_22",
@@ -225,7 +225,7 @@
         }
     },
     {
-        "name": "Oro",
+        "name": "Oro bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Deepnest_East_06",
@@ -233,7 +233,7 @@
         }
     },
     {
-        "name": "Camp",
+        "name": "Camp bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Deepnest_East_13",
@@ -241,7 +241,7 @@
         }
     },
     {
-        "name": "Colosseum",
+        "name": "Colosseum bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Room_Colosseum_02",
@@ -249,7 +249,7 @@
         }
     },
     {
-        "name": "Hive",
+        "name": "Hive bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Hive_01",
@@ -257,7 +257,7 @@
         }
     },
     {
-        "name": "Peak Dark Room",
+        "name": "Peak Dark Room bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Mines_29",
@@ -265,7 +265,7 @@
         }
     },
     {
-        "name": "Crystal Guardian",
+        "name": "Crystal Guardian bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Mines_18",
@@ -273,7 +273,7 @@
         }
     },
     {
-        "name": "Resting Grounds Stag",
+        "name": "Resting Grounds Stag bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_RestingGrounds_09",
@@ -281,7 +281,7 @@
         }
     },
     {
-        "name": "Grey Mourner",
+        "name": "Grey Mourner bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_RestingGrounds_12",
@@ -289,7 +289,7 @@
         }
     },
     {
-        "name": "Queen's Gardens Cornifer",
+        "name": "Queen's Gardens Cornifer bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus1_24",
@@ -297,7 +297,7 @@
         }
     },
     {
-        "name": "Queen's Gardens Toll",
+        "name": "Queen's Gardens Toll bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus3_50",
@@ -305,7 +305,7 @@
         }
     },
     {
-        "name": "Queen's Gardens Stag",
+        "name": "Queen's Gardens Stag bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Fungus3_40",
@@ -313,7 +313,7 @@
         }
     },
     {
-        "name": "Upper Tram",
+        "name": "Upper Tram bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Room_Tram_RG",
@@ -321,7 +321,7 @@
         }
     },
     {
-        "name": "Lower Tram",
+        "name": "Lower Tram bench",
         "condition": {
             "type": "Bool",
             "variableName": "bench_Room_Tram",

@@ -334,4 +334,21 @@
     <None Include="ReadMe.md" />
     <None Include="Resources\.gitignore" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="Resources\Squares\BenchBingo.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Squares\Extended.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Squares\GodhomeBingo.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Squares\GrubBingo.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Squares\RelicBingo.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>

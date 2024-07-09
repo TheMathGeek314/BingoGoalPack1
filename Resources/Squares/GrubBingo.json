@@ -1,6 +1,6 @@
 ﻿[
     {
-        "name": "Crossroads Wall",
+        "name": "Crossroads Wall grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Crossroads_03",
@@ -8,7 +8,7 @@
         }
     },
     {
-        "name": "Crossroads Guarded",
+        "name": "Crossroads Guarded grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Crossroads_48",
@@ -16,7 +16,7 @@
         }
     },
     {
-        "name": "Crossroads Spikes",
+        "name": "Crossroads Spikes grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Crossroads_31",
@@ -24,7 +24,7 @@
         }
     },
     {
-        "name": "Crossroads Vengefly",
+        "name": "Crossroads Vengefly grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Crossroads_05",
@@ -32,7 +32,7 @@
         }
     },
     {
-        "name": "Crossroads Acid",
+        "name": "Crossroads Acid grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Crossroads_35",
@@ -40,7 +40,7 @@
         }
     },
     {
-        "name": "Crystal Peak Spikes",
+        "name": "Crystal Peak Spikes grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Mines_03",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "name": "Crystal Peak Crown",
+        "name": "Crystal Peak Crown grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Mines_24",
@@ -56,7 +56,7 @@
         }
     },
     {
-        "name": "Crystal Peak Crystal Heart",
+        "name": "Crystal Peak Crystal Heart grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Mines_31",
@@ -64,7 +64,7 @@
         }
     },
     {
-        "name": "Crystal Peak Crushers",
+        "name": "Crystal Peak Crushers grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Mines_19",
@@ -72,7 +72,7 @@
         }
     },
     {
-        "name": "Crystal Peak Bottom Lever",
+        "name": "Crystal Peak Bottom Lever grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Mines_04",
@@ -80,7 +80,7 @@
         }
     },
     {
-        "name": "Crystal Peak Mound",
+        "name": "Crystal Peak Mound grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Mines_35",
@@ -88,7 +88,7 @@
         }
     },
     {
-        "name": "Crystal Peak Mimics",
+        "name": "Crystal Peak Mimics grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Mines_16",
@@ -96,7 +96,7 @@
         }
     },
     {
-        "name": "Resting Ground Crypts",
+        "name": "Resting Ground Crypts grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_RestingGrounds_10",
@@ -104,7 +104,7 @@
         }
     },
     {
-        "name": "City Sanctum Dive",
+        "name": "City Sanctum Dive grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Ruins1_32",
@@ -112,7 +112,7 @@
         }
     },
     {
-        "name": "City Below Sanctum",
+        "name": "City Below Sanctum grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Ruins1_05",
@@ -120,7 +120,7 @@
         }
     },
     {
-        "name": "City Below Love Tower",
+        "name": "City Below Love Tower grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Ruins2_07",
@@ -128,7 +128,7 @@
         }
     },
     {
-        "name": "City Guard House",
+        "name": "City Guard House grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Ruins_House_01",
@@ -136,7 +136,7 @@
         }
     },
     {
-        "name": "City Spire",
+        "name": "City Spire grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Ruins2_03",
@@ -144,7 +144,7 @@
         }
     },
     {
-        "name": "Waterways Center",
+        "name": "Waterways Center grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Waterways_04",
@@ -152,7 +152,7 @@
         }
     },
     {
-        "name": "Waterways Isma",
+        "name": "Waterways Isma grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Waterways_13",
@@ -160,7 +160,7 @@
         }
     },
     {
-        "name": "Waterways Hwurmps",
+        "name": "Waterways Hwurmps grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Waterways_14",
@@ -168,7 +168,7 @@
         }
     },
     {
-        "name": "Fungal Bouncy",
+        "name": "Fungal Bouncy grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus2_18",
@@ -176,7 +176,7 @@
         }
     },
     {
-        "name": "Fungal Spore Shroom",
+        "name": "Fungal Spore Shroom grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus2_20",
@@ -184,7 +184,7 @@
         }
     },
     {
-        "name": "Deepnest Mimics",
+        "name": "Deepnest Mimics grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Deepnest_36",
@@ -192,7 +192,7 @@
         }
     },
     {
-        "name": "Deepnest Nosk",
+        "name": "Deepnest Nosk grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Deepnest_31",
@@ -200,7 +200,7 @@
         }
     },
     {
-        "name": "Deepnest Spikes",
+        "name": "Deepnest Spikes grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Deepnest_03",
@@ -208,7 +208,7 @@
         }
     },
     {
-        "name": "Deepnest Dark",
+        "name": "Deepnest Dark grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Deepnest_39",
@@ -216,7 +216,7 @@
         }
     },
     {
-        "name": "Deepnest Beast's Den",
+        "name": "Deepnest Beast's Den grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Deepnest_Spider_Town",
@@ -224,7 +224,7 @@
         }
     },
     {
-        "name": "Fog Canyon Archives",
+        "name": "Fog Canyon Archives grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus3_47",
@@ -232,7 +232,7 @@
         }
     },
     {
-        "name": "Queen's Gardens Below Stag",
+        "name": "Queen's Gardens Below Stag grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus3_10",
@@ -240,7 +240,7 @@
         }
     },
     {
-        "name": "Queen's Gardens White Lady",
+        "name": "Queen's Gardens White Lady grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus3_48",
@@ -248,7 +248,7 @@
         }
     },
     {
-        "name": "Queen's Gardens Upper",
+        "name": "Queen's Gardens Upper grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus3_22",
@@ -256,7 +256,7 @@
         }
     },
     {
-        "name": "Greenpath Moss Knight",
+        "name": "Greenpath Moss Knight grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus1_21",
@@ -264,7 +264,7 @@
         }
     },
     {
-        "name": "Greenpath Hunter",
+        "name": "Greenpath Hunter grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus1_07",
@@ -272,7 +272,7 @@
         }
     },
     {
-        "name": "Greenpath Cornifer",
+        "name": "Greenpath Cornifer grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus1_06",
@@ -280,7 +280,7 @@
         }
     },
     {
-        "name": "Greenpath Vessel Fragment",
+        "name": "Greenpath Vessel Fragment grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus1_13",
@@ -288,7 +288,7 @@
         }
     },
     {
-        "name": "Cliffs Baldur Shell",
+        "name": "Cliffs Baldur Shell grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Fungus1_28",
@@ -296,7 +296,7 @@
         }
     },
     {
-        "name": "Hive External",
+        "name": "Hive External grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Hive_03",
@@ -304,7 +304,7 @@
         }
     },
     {
-        "name": "Hive Internal",
+        "name": "Hive Internal grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Hive_04",
@@ -312,7 +312,7 @@
         }
     },
     {
-        "name": "Basin Dive",
+        "name": "Basin Dive grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Abyss_17",
@@ -320,7 +320,7 @@
         }
     },
     {
-        "name": "Basin Wings",
+        "name": "Basin Wings grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Abyss_19",
@@ -328,7 +328,7 @@
         }
     },
     {
-        "name": "Collector (3)",
+        "name": "Collector grubs (3)",
         "condition": {
             "type": "Int",
             "variableName": "grubSaved_single_Ruins2_11",
@@ -337,7 +337,7 @@
         }
     },
     {
-        "name": "Kingdom's Edge Oro",
+        "name": "Kingdom's Edge Oro grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Deepnest_East_14",
@@ -345,7 +345,7 @@
         }
     },
     {
-        "name": "Kingdom's Edge Center",
+        "name": "Kingdom's Edge Center grub",
         "condition": {
             "type": "Bool",
             "variableName": "grubSaved_single_Deepnest_East_11",

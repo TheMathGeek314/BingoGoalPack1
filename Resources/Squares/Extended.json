@@ -84,6 +84,34 @@
         }
     },
     {
+        "name": "Buy 4 map markers from Iselda (All)",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "hasMarker_r",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "hasMarker_b",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "hasMarker_y",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "hasMarker_w",
+                    "expectedValue": true
+                }
+            ]
+        }
+    },
+    {
         "name": "Buy the QG and Fog Canyon maps",
         "condition": {
             "type": "And",
@@ -203,6 +231,14 @@
                     "expectedValue": true
                 }
             ]
+        }
+    },
+    {
+        "name": "Destroy every tablet in the Shrine of Believers",
+        "condition": {
+            "type": "Bool",
+            "variableName": "allBelieverTabletsDestroyed",
+            "expectedValue": true
         }
     },
     {
@@ -643,6 +679,29 @@
             "type": "Bool",
             "variableName": "bench_Deepnest_14",
             "expectedValue": true
+        }
+    },
+    {
+        "name": "Sit with Mato, Marissa, and Quirrel",
+        "condition": {
+            "type": "And",
+            "conditions": [
+                {
+                    "type": "Bool",
+                    "variableName": "satWith_Room_nailmaster",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "satWith_Ruins_Bathhouse",
+                    "expectedValue": true
+                },
+                {
+                    "type": "Bool",
+                    "variableName": "satWith_Crossroads_50",
+                    "expectedValue": true
+                }
+            ]
         }
     },
     {
