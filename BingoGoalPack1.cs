@@ -144,8 +144,8 @@ namespace BingoGoalPack1 {
             goals["Idol: Crystal Peak Cornifer"].exclusions.Add("Journal: Crystal Peak conga line");
             goals["Idol: Spirits' Glade"].exclusions.Add("Seal: 100 essence");
             goals["Idol: Howling Cliffs"].exclusions.Add("Journal: Howling Cliffs");
-            goals["Idol: Below Colosseum"].exclusions.Add("Idol: Pale Lurker");
-            goals["Idol: Pale Lurker"].exclusions.Add("Idol: Below Colosseum");
+            goals["Idol: Great Hopper"].exclusions.Add("Idol: Pale Lurker");
+            goals["Idol: Pale Lurker"].exclusions.Add("Idol: Great Hopper");
         }
     }
 }
