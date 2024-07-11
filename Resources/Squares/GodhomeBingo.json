@@ -1,1034 +1,1034 @@
 ﻿[
-	{
-		"name": "Attuned Soul Warrior",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMageKnight_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Soul Warrior",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMageKnight_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Soul Warrior",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMageKnight_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Grimm",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGrimm_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Grimm",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGrimm_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Grimm",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGrimm_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Vengefly King",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateVengefly_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Vengefly King",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateVengefly_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Vengefly King",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateVengefly_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Soul Tyrant",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateSoulTyrant_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Soul Tyrant",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateSoulTyrant_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Soul Tyrant",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateSoulTyrant_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Lost Kin",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateLostKin_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Lost Kin",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateLostKin_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Lost Kin",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateLostKin_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Oblobbles",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateOblobbles_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Oblobbles",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateOblobbles_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Oblobbles",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateOblobbles_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Marmu",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMarmu_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Marmu",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMarmu_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Marmu",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMarmu_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Failed Champion",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateFailedChampion_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Failed Champion",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateFailedChampion_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Failed Champion",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateFailedChampion_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Nightmare King",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNightmareGrimm_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Nightmare King",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNightmareGrimm_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Nightmare King",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNightmareGrimm_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Hornet Protector",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHornet1_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Hornet Protector",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHornet1_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Hornet Protector",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHornet1_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Crystal Guardian",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateCrystalGuardian1_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Crystal Guardian",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateCrystalGuardian1_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Crystal Guardian",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateCrystalGuardian1_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Galien",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGalien_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Galien",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGalien_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Galien",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGalien_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Soul Master",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateSoulMaster_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Soul Master",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateSoulMaster_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Soul Master",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateSoulMaster_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned No Eyes",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNoEyes_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended No Eyes",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNoEyes_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant No Eyes",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNoEyes_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Traitor Lord",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateTraitorLord_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Traitor Lord",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateTraitorLord_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Traitor Lord",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateTraitorLord_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Massive Moss Charger",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMegaMossCharger_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Massive Moss Charger",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMegaMossCharger_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Massive Moss Charger",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMegaMossCharger_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Sisters of Battle",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMantisLordsExtra_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Sisters of Battle",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMantisLordsExtra_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Sisters of Battle",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMantisLordsExtra_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Collector",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateCollector_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Collector",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateCollector_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Collector",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateCollector_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Enraged Guardian",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateCrystalGuardian2_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Enraged Guardian",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateCrystalGuardian2_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Enraged Guardian",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateCrystalGuardian2_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Gorb",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGorb_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Gorb",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGorb_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Gorb",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGorb_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Elder Hu",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateElderHu_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Elder Hu",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateElderHu_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Elder Hu",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateElderHu_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Nosk",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNosk_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Nosk",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNosk_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Nosk",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNosk_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Brooding Mawlek",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateBroodingMawlek_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Brooding Mawlek",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateBroodingMawlek_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Brooding Mawlek",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateBroodingMawlek_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned God Tamer",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGodTamer_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended God Tamer",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGodTamer_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant God Tamer",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGodTamer_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Grey Prince Zote",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGreyPrince_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Grey Prince Zote",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGreyPrince_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Grey Prince Zote",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGreyPrince_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Paintmaster Sheo",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStatePaintmaster_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Paintmaster Sheo",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStatePaintmaster_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Paintmaster Sheo",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStatePaintmaster_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Xero",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateXero_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Xero",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateXero_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Xero",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateXero_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Gruz Mother",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGruzMother_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Gruz Mother",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGruzMother_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Gruz Mother",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateGruzMother_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned False Knight",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateFalseKnight_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended False Knight",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateFalseKnight_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant False Knight",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateFalseKnight_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Hive Knight",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHiveKnight_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Hive Knight",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHiveKnight_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Hive Knight",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHiveKnight_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Markoth",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMarkoth_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Markoth",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMarkoth_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Markoth",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMarkoth_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Uumuu",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateUumuu_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Uumuu",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateUumuu_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Uumuu",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateUumuu_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Dung Defender",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateDungDefender_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Dung Defender",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateDungDefender_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Dung Defender",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateDungDefender_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Broken Vessel",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateBrokenVessel_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Broken Vessel",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateBrokenVessel_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Broken Vessel",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateBrokenVessel_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Watcher Knights",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateWatcherKnights_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Watcher Knights",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateWatcherKnights_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Watcher Knights",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateWatcherKnights_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Nailsage Sly",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateSly_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Nailsage Sly",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateSly_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Nailsage Sly",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateSly_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Hornet Sentinel",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHornet2_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Hornet Sentinel",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHornet2_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Hornet Sentinel",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHornet2_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Mantis Lords",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMantisLords_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Mantis Lords",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMantisLords_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Mantis Lords",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateMantisLords_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned White Defender",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateWhiteDefender_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended White Defender",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateWhiteDefender_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant White Defender",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateWhiteDefender_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Oro & Mato",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNailmasters_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Oro & Mato",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNailmasters_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Oro & Mato",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNailmasters_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Winged Nosk",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNoskHornet_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Winged Nosk",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNoskHornet_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Winged Nosk",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateNoskHornet_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Pure Vessel",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHollowKnight_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Pure Vessel",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHollowKnight_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Pure Vessel",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateHollowKnight_radiant",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Attuned Flukemarm",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateFlukemarm_attuned",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Ascended Flukemarm",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateFlukemarm_ascended",
-			"expectedValue": true
-		}
-	},
-	{
-		"name": "Radiant Flukemarm",
-		"condition": {
-			"type": "Bool",
-			"variableName": "statueStateFlukemarm_radiant",
-			"expectedValue": true
-		}
-	}
+    {
+        "name": "Attuned Soul Warrior",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMageKnight_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Soul Warrior",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMageKnight_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Soul Warrior",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMageKnight_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Grimm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGrimm_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Grimm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGrimm_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Grimm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGrimm_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Vengefly King",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateVengefly_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Vengefly King",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateVengefly_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Vengefly King",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateVengefly_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Soul Tyrant",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateSoulTyrant_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Soul Tyrant",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateSoulTyrant_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Soul Tyrant",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateSoulTyrant_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Lost Kin",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateLostKin_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Lost Kin",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateLostKin_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Lost Kin",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateLostKin_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Oblobbles",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateOblobbles_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Oblobbles",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateOblobbles_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Oblobbles",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateOblobbles_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Marmu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMarmu_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Marmu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMarmu_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Marmu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMarmu_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Failed Champion",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateFailedChampion_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Failed Champion",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateFailedChampion_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Failed Champion",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateFailedChampion_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Nightmare King",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNightmareGrimm_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Nightmare King",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNightmareGrimm_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Nightmare King",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNightmareGrimm_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Hornet Protector",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHornet1_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Hornet Protector",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHornet1_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Hornet Protector",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHornet1_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Crystal Guardian",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateCrystalGuardian1_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Crystal Guardian",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateCrystalGuardian1_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Crystal Guardian",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateCrystalGuardian1_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Galien",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGalien_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Galien",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGalien_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Galien",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGalien_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Soul Master",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateSoulMaster_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Soul Master",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateSoulMaster_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Soul Master",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateSoulMaster_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned No Eyes",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNoEyes_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended No Eyes",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNoEyes_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant No Eyes",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNoEyes_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Traitor Lord",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateTraitorLord_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Traitor Lord",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateTraitorLord_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Traitor Lord",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateTraitorLord_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Massive Moss Charger",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMegaMossCharger_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Massive Moss Charger",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMegaMossCharger_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Massive Moss Charger",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMegaMossCharger_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Sisters of Battle",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMantisLordsExtra_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Sisters of Battle",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMantisLordsExtra_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Sisters of Battle",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMantisLordsExtra_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Collector",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateCollector_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Collector",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateCollector_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Collector",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateCollector_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Enraged Guardian",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateCrystalGuardian2_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Enraged Guardian",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateCrystalGuardian2_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Enraged Guardian",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateCrystalGuardian2_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Gorb",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGorb_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Gorb",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGorb_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Gorb",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGorb_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Elder Hu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateElderHu_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Elder Hu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateElderHu_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Elder Hu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateElderHu_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Nosk",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNosk_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Nosk",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNosk_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Nosk",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNosk_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Brooding Mawlek",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateBroodingMawlek_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Brooding Mawlek",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateBroodingMawlek_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Brooding Mawlek",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateBroodingMawlek_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned God Tamer",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGodTamer_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended God Tamer",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGodTamer_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant God Tamer",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGodTamer_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Grey Prince Zote",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGreyPrince_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Grey Prince Zote",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGreyPrince_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Grey Prince Zote",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGreyPrince_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Paintmaster Sheo",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStatePaintmaster_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Paintmaster Sheo",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStatePaintmaster_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Paintmaster Sheo",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStatePaintmaster_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Xero",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateXero_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Xero",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateXero_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Xero",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateXero_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Gruz Mother",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGruzMother_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Gruz Mother",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGruzMother_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Gruz Mother",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateGruzMother_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned False Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateFalseKnight_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended False Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateFalseKnight_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant False Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateFalseKnight_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Hive Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHiveKnight_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Hive Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHiveKnight_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Hive Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHiveKnight_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Markoth",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMarkoth_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Markoth",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMarkoth_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Markoth",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMarkoth_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Uumuu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateUumuu_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Uumuu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateUumuu_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Uumuu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateUumuu_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Dung Defender",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateDungDefender_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Dung Defender",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateDungDefender_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Dung Defender",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateDungDefender_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Broken Vessel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateBrokenVessel_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Broken Vessel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateBrokenVessel_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Broken Vessel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateBrokenVessel_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Watcher Knights",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateWatcherKnights_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Watcher Knights",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateWatcherKnights_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Watcher Knights",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateWatcherKnights_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Nailsage Sly",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateSly_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Nailsage Sly",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateSly_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Nailsage Sly",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateSly_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Hornet Sentinel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHornet2_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Hornet Sentinel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHornet2_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Hornet Sentinel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHornet2_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Mantis Lords",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMantisLords_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Mantis Lords",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMantisLords_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Mantis Lords",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateMantisLords_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned White Defender",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateWhiteDefender_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended White Defender",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateWhiteDefender_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant White Defender",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateWhiteDefender_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Oro & Mato",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNailmasters_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Oro & Mato",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNailmasters_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Oro & Mato",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNailmasters_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Winged Nosk",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNoskHornet_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Winged Nosk",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNoskHornet_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Winged Nosk",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateNoskHornet_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Pure Vessel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHollowKnight_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Pure Vessel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHollowKnight_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Pure Vessel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateHollowKnight_radiant",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Attuned Flukemarm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateFlukemarm_attuned",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Ascended Flukemarm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateFlukemarm_ascended",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Radiant Flukemarm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "statueStateFlukemarm_radiant",
+            "expectedValue": true
+        }
+    }
 ]

@@ -11,7 +11,7 @@ This mod also includes additional board types such as Grub Bingo, Bench/Hardsave
 Credit to TheMathGeek_314 for implementing the automarking logic for new goals.
 Credit to Alph4 for the BingoSyncExtension mod made for this project.
 
-### Goals
+## Goals
 
 __Extended__
 - Buy the QG and Fog Canyon maps
@@ -36,6 +36,7 @@ __Extended__
 - Talk to Tuk
 
 __Extended+__
+- *All Extended goals*
 - 10 Lifeblood masks at the same time
 - All Fungal Benches
 - All Greenpath Benches
@@ -172,8 +173,135 @@ __Grubs__
 - Kingdom's Edge Center grub
 
 __Hall of Gods__
-- Attuned, Ascended, and Radiant for every boss in the Hall
-- Radiance is not included
+- Attuned Soul Warrior
+- Ascended Soul Warrior
+- Radiant Soul Warrior
+- Attuned Grimm
+- Ascended Grimm
+- Radiant Grimm
+- Attuned Vengefly King
+- Ascended Vengefly King
+- Radiant Vengefly King
+- Attuned Soul Tyrant
+- Ascended Soul Tyrant
+- Radiant Soul Tyrant
+- Attuned Lost Kin
+- Ascended Lost Kin
+- Radiant Lost Kin
+- Attuned Oblobbles
+- Ascended Oblobbles
+- Radiant Oblobbles
+- Attuned Marmu
+- Ascended Marmu
+- Radiant Marmu
+- Attuned Failed Champion
+- Ascended Failed Champion
+- Radiant Failed Champion
+- Attuned Nightmare King
+- Ascended Nightmare King
+- Radiant Nightmare King
+- Attuned Hornet Protector
+- Ascended Hornet Protector
+- Radiant Hornet Protector
+- Attuned Crystal Guardian
+- Ascended Crystal Guardian
+- Radiant Crystal Guardian
+- Attuned Galien
+- Ascended Galien
+- Radiant Galien
+- Attuned Soul Master
+- Ascended Soul Master
+- Radiant Soul Master
+- Attuned No Eyes
+- Ascended No Eyes
+- Radiant No Eyes
+- Attuned Traitor Lord
+- Ascended Traitor Lord
+- Radiant Traitor Lord
+- Attuned Massive Moss Charger
+- Ascended Massive Moss Charger
+- Radiant Massive Moss Charger
+- Attuned Sisters of Battle
+- Ascended Sisters of Battle
+- Radiant Sisters of Battle
+- Attuned Collector
+- Ascended Collector
+- Radiant Collector
+- Attuned Enraged Guardian
+- Ascended Enraged Guardian
+- Radiant Enraged Guardian
+- Attuned Gorb
+- Ascended Gorb
+- Radiant Gorb
+- Attuned Elder Hu
+- Ascended Elder Hu
+- Radiant Elder Hu
+- Attuned Nosk
+- Ascended Nosk
+- Radiant Nosk
+- Attuned Brooding Mawlek
+- Ascended Brooding Mawlek
+- Radiant Brooding Mawlek
+- Attuned God Tamer
+- Ascended God Tamer
+- Radiant God Tamer
+- Attuned Grey Prince Zote
+- Ascended Grey Prince Zote
+- Radiant Grey Prince Zote
+- Attuned Paintmaster Sheo
+- Ascended Paintmaster Sheo
+- Radiant Paintmaster Sheo
+- Attuned Xero
+- Ascended Xero
+- Radiant Xero
+- Attuned Gruz Mother
+- Ascended Gruz Mother
+- Radiant Gruz Mother
+- Attuned False Knight
+- Ascended False Knight
+- Radiant False Knight
+- Attuned Hive Knight
+- Ascended Hive Knight
+- Radiant Hive Knight
+- Attuned Markoth
+- Ascended Markoth
+- Radiant Markoth
+- Attuned Uumuu
+- Ascended Uumuu
+- Radiant Uumuu
+- Attuned Dung Defender
+- Ascended Dung Defender
+- Radiant Dung Defender
+- Attuned Broken Vessel
+- Ascended Broken Vessel
+- Radiant Broken Vessel
+- Attuned Watcher Knights
+- Ascended Watcher Knights
+- Radiant Watcher Knights
+- Attuned Nailsage Sly
+- Ascended Nailsage Sly
+- Radiant Nailsage Sly
+- Attuned Hornet Sentinel
+- Ascended Hornet Sentinel
+- Radiant Hornet Sentinel
+- Attuned Mantis Lords
+- Ascended Mantis Lords
+- Radiant Mantis Lords
+- Attuned White Defender
+- Ascended White Defender
+- Radiant White Defender
+- Attuned Oro & Mato
+- Ascended Oro & Mato
+- Radiant Oro & Mato
+- Attuned Winged Nosk
+- Ascended Winged Nosk
+- Radiant Winged Nosk
+- Attuned Pure Vessel
+- Ascended Pure Vessel
+- Radiant Pure Vessel
+- Attuned Flukemarm
+- Ascended Flukemarm
+- Radiant Flukemarm
 
 __Relics__
 - Journal: Greenpath stag
