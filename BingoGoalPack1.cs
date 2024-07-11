@@ -12,7 +12,7 @@ using System;
 namespace BingoGoalPack1 {
     public class BingoGoalPack1: Mod{
         new public string GetName() => "BingoGoalPack1";
-        public override string GetVersion() => "1.3.0.6";
+        public override string GetVersion() => "1.3.1.0";
         public override int LoadPriority() => 8;
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects) {
