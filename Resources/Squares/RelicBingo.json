@@ -1,0 +1,330 @@
+﻿[
+    {
+        "name": "Journal: Greenpath stag",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Fungus1_22",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Below Stone Sanctuary",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Fungus1_11",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Below Shrumal Ogres",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Fungus2_04",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Above Mantis Village",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Fungus2_17",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: City Storerooms",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Ruins1_28",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Above King's Station",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Ruins2_05",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Pleasure House",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Ruins_Elevator",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Howling Cliffs",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Cliffs_01",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Crystal Peak conga line",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Mines_20",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Crypts",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_RestingGrounds_10",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Basin bridge",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Abyss_02",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Kingdom's Edge above Cornifer",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Deepnest_East_07",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Camp bench",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Deepnest_East_13",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Journal: Markoth dive floor",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_1_Deepnest_East_18",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: 23 grubs",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Crossroads_38",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Crossroads well",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Crossroads_01",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Below Thorns of Agony",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Fungus1_10",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Sporgs",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Fungus2_03",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Mantis Lords reward",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Fungus2_31",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Queen's Station",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Fungus2_34",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: East of Overgrown Mound",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Fungus3_30",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Northeast of Archives",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Fungus3_26",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Crypts",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_RestingGrounds_10",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: 100 essence",
+        "condition": {
+            "type": "Bool",
+            "variableName": "dreamReward1",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Rafters",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Ruins1_03",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: King's Station",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Ruins2_08",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Sanctum",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Ruins1_32",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Watcher's Spire",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Ruins2_03",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Beast's Den",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Deepnest_Spider_Town",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Deepnest near Mantis Lords",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Deepnest_16",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Seal: Near Marmu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_2_Fungus3_48",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Idol: Crystal Peak Cornifer",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_3_Mines_30",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Idol: Spirits' Glade",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_3_RestingGrounds_08",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Idol: Dung Defender",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_3_Waterways_15",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Idol: Howling Cliffs",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_3_Cliffs_01",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Idol: Great Hopper",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_3_Deepnest_East_08",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Idol: Pale Lurker",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_3_GG_Lurker",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Idol: Deepnest Zote",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_3_Deepnest_33",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Egg: Lifeblood Core",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_4_Abyss_08",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Egg: Shade Cloak",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShiny_4_Abyss_10",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Egg: 1200 essence",
+        "condition": {
+            "type": "Bool",
+            "variableName": "dreamReward6",
+            "expectedValue": true
+        }
+    }
+]
