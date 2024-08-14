@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using MonoMod.Cil;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class DreamTreesExtension {
@@ -15,7 +15,7 @@ namespace BingoGoalPack1.CustomVariables {
                     if(zone.ToString()!="SHAMAN_TEMPLE")
                         return;
                     string regionVariableName = $"dreamTreeCompleted_{zone}";
-                    VariableProxy.UpdateBoolean(regionVariableName, true);
+                    BingoSync.Variables.UpdateBoolean(regionVariableName, true);
                 });
             }
         }

@@ -1,5 +1,5 @@
 ﻿using GlobalEnums;
-using BingoSyncExtension;
+
 using Satchel;
 
 namespace BingoGoalPack1.CustomVariables {
@@ -18,8 +18,8 @@ namespace BingoGoalPack1.CustomVariables {
         private static void GrubSaved(MapZone zone) {
             if(zone.ToString() == "HIVE") {
                 var variableName = GetZoneGrubsVariableName(zone);
-                var grubsSaveOnZone = VariableProxy.GetInteger(variableName) + 1;
-                VariableProxy.UpdateInteger(variableName, grubsSaveOnZone);
+                var grubsSaveOnZone = BingoSync.Variables.GetInteger(variableName) + 1;
+                BingoSync.Variables.UpdateInteger(variableName, grubsSaveOnZone);
             }
         }
 
@@ -35,9 +35,9 @@ namespace BingoGoalPack1.CustomVariables {
                 string variableName = $"grubSaved_single_{room}";
                 //Collector special case
                 if(room == "Ruins2_11")
-                    VariableProxy.Increment(variableName);
+                    BingoSync.Variables.Increment(variableName);
                 else
-                    VariableProxy.UpdateBoolean(variableName, true);
+                    BingoSync.Variables.UpdateBoolean(variableName, true);
             });
         }
     }

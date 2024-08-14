@@ -1,5 +1,5 @@
 ﻿using Satchel;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class Sit {
@@ -15,7 +15,7 @@ namespace BingoGoalPack1.CustomVariables {
                 return;
             self.AddCustomAction(stateName, () => {
                 string variableName = $"satWith_{GameManager.instance.GetSceneNameString()}";
-                VariableProxy.UpdateBoolean(variableName, true);
+                BingoSync.Variables.UpdateBoolean(variableName, true);
             });
         }
     }

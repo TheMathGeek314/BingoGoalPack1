@@ -1,7 +1,7 @@
 ﻿using Satchel;
 using System;
 using UnityEngine;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class Hardsaves {
@@ -36,7 +36,7 @@ namespace BingoGoalPack1.CustomVariables {
             self.AddCustomAction(stateName, () => {
                 string room = self.gameObject.scene.name;
                 string variableName = $"hardsave_{room}";
-                VariableProxy.UpdateBoolean(variableName, true);
+                BingoSync.Variables.UpdateBoolean(variableName, true);
             });
         }
 
@@ -50,7 +50,7 @@ namespace BingoGoalPack1.CustomVariables {
                 return;
             //Godseeker
             if(self.gameObject.scene.name == "GG_Waterways") {
-                VariableProxy.UpdateBoolean("hardsave_GG_Waterways", true);
+                BingoSync.Variables.UpdateBoolean("hardsave_GG_Waterways", true);
             }
         }
     }

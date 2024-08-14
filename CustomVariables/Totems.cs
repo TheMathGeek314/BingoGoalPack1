@@ -1,5 +1,5 @@
 ﻿using Satchel;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class Totems {
@@ -15,12 +15,12 @@ namespace BingoGoalPack1.CustomVariables {
                 return;
             self.AddCustomAction(hitStateName, () => {
                 string uniqueVariableName = $"hitSoulTotem_{self.gameObject.scene.name}_{self.gameObject.GetPath()}";
-                var alreadyHit = VariableProxy.GetBoolean(uniqueVariableName);
+                var alreadyHit = BingoSync.Variables.GetBoolean(uniqueVariableName);
                 if(alreadyHit)
                     return;
-                VariableProxy.UpdateBoolean(variableName, true);
-                var totemsHit = VariableProxy.GetInteger(variableName) + 1;
-                VariableProxy.UpdateInteger(variableName, totemsHit);
+                BingoSync.Variables.UpdateBoolean(variableName, true);
+                var totemsHit = BingoSync.Variables.GetInteger(variableName) + 1;
+                BingoSync.Variables.UpdateInteger(variableName, totemsHit);
             });
         }
     }

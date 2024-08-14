@@ -1,5 +1,5 @@
 ﻿using GlobalEnums;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class CoreShard {
@@ -12,7 +12,7 @@ namespace BingoGoalPack1.CustomVariables {
             if(zone != MapZone.DEEPNEST)
                 return orig;
 
-            VariableProxy.UpdateBoolean(variableName, true);
+            BingoSync.Variables.UpdateBoolean(variableName, true);
             return orig;
         }
     }
