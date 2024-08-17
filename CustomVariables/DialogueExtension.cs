@@ -1,4 +1,4 @@
-﻿using BingoSyncExtension;
+﻿
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class DialogueExtension {
@@ -6,13 +6,13 @@ namespace BingoGoalPack1.CustomVariables {
             orig(self, convName, sheetName);
             // Divine with Crest
             if(convName == "DIVINE_DUNG_CHARM") {
-                VariableProxy.UpdateBoolean("metDivineWithCrest", true);
+                BingoSync.Variables.UpdateBoolean("metDivineWithCrest", true);
             }
             // Quirrel
             if(sheetName == "Quirrel") {
                 var scene = GameManager.instance.GetSceneNameString();
                 var variableName = $"quirrel_{scene}";
-                VariableProxy.UpdateBoolean(variableName, true);
+                BingoSync.Variables.UpdateBoolean(variableName, true);
             }
         }
     }

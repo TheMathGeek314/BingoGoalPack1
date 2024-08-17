@@ -1,5 +1,5 @@
 ﻿using Satchel;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class Arenas {
@@ -14,7 +14,7 @@ namespace BingoGoalPack1.CustomVariables {
                 self.AddCustomAction("End", () => {
                     var room = self.gameObject.scene.name;
                     var variableName = $"arenaBeat_{room}";
-                    VariableProxy.UpdateBoolean(variableName, true);
+                    BingoSync.Variables.UpdateBoolean(variableName, true);
                 });
             }
             catch {

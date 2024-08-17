@@ -1,5 +1,4 @@
 ﻿using BingoGoalPack1.CustomVariables;
-using BingoSyncExtension;
 using Modding;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,54 +6,56 @@ using System.Reflection;
 using MonoMod.Utils;
 using MonoMod.RuntimeDetour;
 using System.IO;
-using System;
 using System.Linq;
+using BingoSync.CustomGoals;
 
 namespace BingoGoalPack1 {
     public class BingoGoalPack1: Mod{
         new public string GetName() => "BingoGoalPack1";
-        public override string GetVersion() => "1.4.0.0";
+        public override string GetVersion() => "1.5.0.0";
         public override int LoadPriority() => 8;
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects) {
-            VariableProxy.Setup(Log);
             Assembly assembly = Assembly.GetExecutingAssembly();
 
             //set up goal lists
-            Dictionary<string, BingoGoal> vanillaGoals = GameModesManager.GetVanillaGoals();
+            Dictionary<string, BingoGoal> vanillaGoals = BingoSync.Goals.GetVanillaGoals();
 
             processEmbeddedJson(assembly, "Extended");
             Dictionary<string, BingoGoal> extendedGoals = setupExtendedDict();
-            GameModesManager.RegisterGoalsForCustom("Extended", extendedGoals);
+            BingoSync.Goals.RegisterGoalsForCustom("Extended", extendedGoals);
             Dictionary<string, BingoGoal> extendedPlusGoals = setupExtendedPlusDict();
-            GameModesManager.RegisterGoalsForCustom("Extended+", extendedPlusGoals);
+            BingoSync.Goals.RegisterGoalsForCustom("Extended+", extendedPlusGoals);
 
             extendedGoals.AddRange(vanillaGoals);
             GameMode mode_extended = new GameMode("Extended", extendedGoals);
-            GameModesManager.AddGameMode(mode_extended);
+            BingoSync.Goals.AddGameMode(mode_extended);
 
             extendedPlusGoals.AddRange(extendedGoals);
             GameMode mode_extendedPlus = new GameMode("Extended+", extendedPlusGoals);
-            GameModesManager.AddGameMode(mode_extendedPlus);
+            BingoSync.Goals.AddGameMode(mode_extendedPlus);
 
             Dictionary<string, BingoGoal> hardsaveGoals = processEmbeddedJson(assembly, "BenchBingo");
             setupHardsaveDict(hardsaveGoals);
             GameMode mode_hardsaves = new GameMode("Hardsaves", hardsaveGoals);
-            GameModesManager.AddGameMode(mode_hardsaves);
+            BingoSync.Goals.AddGameMode(mode_hardsaves);
+            BingoSync.Goals.RegisterGoalsForCustom("Hardsaves", hardsaveGoals);
 
             Dictionary<string, BingoGoal> grubGoals = processEmbeddedJson(assembly, "GrubBingo");
             setupGrubDict(grubGoals);
             GameMode mode_grubs = new GameMode("Grubs", grubGoals);
-            GameModesManager.AddGameMode(mode_grubs);
-
+            BingoSync.Goals.AddGameMode(mode_grubs);
+            BingoSync.Goals.RegisterGoalsForCustom("Grubs", grubGoals);
+            
             processEmbeddedJson(assembly, "GodhomeBingo");
             GameMode mode_godhome = new GodhomeMode();
-            GameModesManager.AddGameMode(mode_godhome);
+            BingoSync.Goals.AddGameMode(mode_godhome);
 
             Dictionary<string, BingoGoal> relicGoals = processEmbeddedJson(assembly, "RelicBingo");
             setupRelicDict(relicGoals);
             GameMode mode_relics = new GameMode("Relics", relicGoals);
-            GameModesManager.AddGameMode(mode_relics);
+            BingoSync.Goals.AddGameMode(mode_relics);
+            BingoSync.Goals.RegisterGoalsForCustom("Relics", relicGoals);
 
             //add hooks
             On.GameManager.AwardAchievement += Neglect.CheckNeglectAchievement;
@@ -86,7 +87,7 @@ namespace BingoGoalPack1 {
         private Dictionary<string, BingoGoal> processEmbeddedJson(Assembly assembly, string jsonName) {
             string resourceName = assembly.GetManifestResourceNames().Single(str => str.EndsWith("Squares." + jsonName + ".json"));
             Stream stream = assembly.GetManifestResourceStream(resourceName);
-            return BingoSquareInjector.ProcessGoalsFile(stream);
+            return BingoSync.Goals.ProcessGoalsStream(stream);
         }
 
         private Dictionary<string, BingoGoal> setupExtendedDict() {

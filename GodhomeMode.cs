@@ -1,7 +1,8 @@
-﻿using System;
+﻿using BingoSync.CustomGoals;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1 {
     public class GodhomeMode: GameMode {
@@ -10,8 +11,8 @@ namespace BingoGoalPack1 {
 
         public GodhomeMode() : base("Hall of Gods", new Dictionary<string, BingoGoal>()) { }
 
-        public override string GenerateBoard() {
-            Random r = new Random();
+        public override string GenerateBoard(int seed) {
+            Random r = new Random(seed);
             List<BingoGoal> board = new List<BingoGoal>();
             List<string> newBosses = new List<string>(bosses);
             do {

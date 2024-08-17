@@ -1,5 +1,5 @@
 ﻿using Satchel;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class ChestsExtension {
@@ -18,7 +18,7 @@ namespace BingoGoalPack1.CustomVariables {
                 return;
             self.AddCustomAction(openStateName, () => {
                 string variableName = $"chestOpen_{GameManager.instance.GetSceneNameString()}_nothing";
-                VariableProxy.UpdateBoolean(variableName, true);
+                BingoSync.Variables.UpdateBoolean(variableName, true);
             });
         }
     }

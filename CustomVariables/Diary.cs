@@ -1,5 +1,5 @@
 ﻿using Satchel;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class Diary {
@@ -10,7 +10,7 @@ namespace BingoGoalPack1.CustomVariables {
 
         public static void MarkDiaryAsRead(string objectName) {
             string variableName = $"readDiary_{roomName}_{objectName}";
-            VariableProxy.UpdateBoolean(variableName, true);
+            BingoSync.Variables.UpdateBoolean(variableName, true);
         }
 
         public static void CreateDiaryTrigger(On.PlayMakerFSM.orig_OnEnable orig, PlayMakerFSM self) {

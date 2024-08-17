@@ -1,5 +1,5 @@
 ﻿using Satchel;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class Ghosts {
@@ -19,10 +19,10 @@ namespace BingoGoalPack1.CustomVariables {
                 return;
             string room = self.gameObject.scene.name;
             if(room == poggyRoomName) {
-                self.AddCustomAction(killedStateName, () => VariableProxy.UpdateBoolean(poggyVariableName, true));
+                self.AddCustomAction(killedStateName, () => BingoSync.Variables.UpdateBoolean(poggyVariableName, true));
             }
             if(room == joniRoomName) {
-                self.AddCustomAction(killedStateName, () => VariableProxy.UpdateBoolean(joniVariableName, true));
+                self.AddCustomAction(killedStateName, () => BingoSync.Variables.UpdateBoolean(joniVariableName, true));
             }
         }
     }

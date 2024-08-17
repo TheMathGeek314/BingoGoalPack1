@@ -1,5 +1,5 @@
 ﻿using Satchel;
-using BingoSyncExtension;
+
 
 namespace BingoGoalPack1.CustomVariables {
     internal static class DreamNailMace {
@@ -13,7 +13,7 @@ namespace BingoGoalPack1.CustomVariables {
             if(self.gameObject.name != "Mace Head Bug(Clone)")
                 return;
             self.AddCustomAction(hitStateName, () => {
-                VariableProxy.UpdateBoolean("dreamNailedMaceBug", true);
+                BingoSync.Variables.UpdateBoolean("dreamNailedMaceBug", true);
             });
         }
     }
