@@ -2,7 +2,7 @@
 
 A mod for the game Hollow Knight.
 
-This mod adds auto-marking logic for new goals.
+This mod adds auto-marking logic for new BingoSync goals.
 
 Without this mod, BingoSync provides 129 goals. With this mod, you can now have 185 unique goals, but there is an option to limit it to 149 more agreed-upon goals.
 
