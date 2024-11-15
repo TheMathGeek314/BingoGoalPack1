@@ -18,7 +18,7 @@ namespace BingoGoalPack1.CustomVariables {
                 var alreadyHit = BingoSync.Variables.GetBoolean(uniqueVariableName);
                 if(alreadyHit)
                     return;
-                BingoSync.Variables.UpdateBoolean(variableName, true);
+                BingoSync.Variables.UpdateBoolean(uniqueVariableName, true);
                 var totemsHit = BingoSync.Variables.GetInteger(variableName) + 1;
                 BingoSync.Variables.UpdateInteger(variableName, totemsHit);
             });

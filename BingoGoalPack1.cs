@@ -12,7 +12,7 @@ using BingoSync.CustomGoals;
 namespace BingoGoalPack1 {
     public class BingoGoalPack1: Mod{
         new public string GetName() => "BingoGoalPack1";
-        public override string GetVersion() => "1.5.0.0";
+        public override string GetVersion() => "1.5.1.0";
         public override int LoadPriority() => 8;
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects) {
@@ -47,9 +47,11 @@ namespace BingoGoalPack1 {
             BingoSync.Goals.AddGameMode(mode_grubs);
             BingoSync.Goals.RegisterGoalsForCustom("Grubs", grubGoals);
             
-            processEmbeddedJson(assembly, "GodhomeBingo");
+            Dictionary<string, BingoGoal> hogGoals = processEmbeddedJson(assembly, "GodhomeBingo");
+            setupHogDict(hogGoals);
             GameMode mode_godhome = new GodhomeMode();
             BingoSync.Goals.AddGameMode(mode_godhome);
+            BingoSync.Goals.RegisterGoalsForCustom("Hall of Gods", hogGoals);
 
             Dictionary<string, BingoGoal> relicGoals = processEmbeddedJson(assembly, "RelicBingo");
             setupRelicDict(relicGoals);
@@ -306,6 +308,20 @@ namespace BingoGoalPack1 {
             goals[goalEnum.grubs.keOro].exclusions.Add(goalEnum.vanilla.quickslash);
             goals[goalEnum.grubs.keOro].exclusions.Add(goalEnum.hardsaves.oro);
             goals[goalEnum.grubs.keCenter].exclusions.Add(goalEnum.relics.journalMarkothDive);
+        }
+
+        private void setupHogDict(Dictionary<string, BingoGoal> goals) {
+            string att = GodhomeMode.levels[0];
+            string asc = GodhomeMode.levels[1];
+            string rad = GodhomeMode.levels[2];
+            foreach(string boss in GodhomeMode.bosses) {
+                goals[att+boss].exclusions.Add(asc+boss);
+                goals[att+boss].exclusions.Add(rad+boss);
+                goals[asc+boss].exclusions.Add(att+boss);
+                goals[asc+boss].exclusions.Add(rad+boss);
+                goals[rad+boss].exclusions.Add(att+boss);
+                goals[rad+boss].exclusions.Add(asc+boss);
+            }
         }
 
         private void setupRelicDict(Dictionary<string, BingoGoal> goals) {
