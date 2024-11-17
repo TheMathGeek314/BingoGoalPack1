@@ -12,7 +12,7 @@ using BingoSync.CustomGoals;
 namespace BingoGoalPack1 {
     public class BingoGoalPack1: Mod{
         new public string GetName() => "BingoGoalPack1";
-        public override string GetVersion() => "1.5.1.0";
+        public override string GetVersion() => "1.5.1.1";
         public override int LoadPriority() => 8;
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects) {
@@ -68,6 +68,7 @@ namespace BingoGoalPack1 {
             On.PlayMakerFSM.OnEnable += Diary.CreateDiaryTrigger;
             On.PlayMakerFSM.OnEnable += Arenas.CreateArenaTrigger;
             On.PlayMakerFSM.OnEnable += ChestsExtension.CreateJunkpitChestTrigger;
+            On.PlayMakerFSM.OnEnable += ChestsExtension.CreateMLordsChestTrigger;
             On.PlayMakerFSM.OnEnable += Hardsaves.CreateHardsaveTrigger;
             On.RespawnTrigger.OnTriggerEnter2D += Hardsaves.CreateRespawnTriggerTrigger;
             On.PlayMakerFSM.OnEnable += GrubsExtension.SaveOneGrub;

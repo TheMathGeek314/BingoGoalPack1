@@ -494,7 +494,7 @@
                 },
                 {
                     "type": "Bool",
-                    "variableName": "chestOpen_Fungus2_31",
+                    "variableName": "chestOpen_Fungus2_31_mantisSpecial",
                     "expectedValue": true
                 },
                 {
@@ -548,7 +548,7 @@
                 },
                 {
                     "type": "Bool",
-                    "variableName": "chestOpen_Fungus2_31",
+                    "variableName": "chestOpen_Fungus2_31_mantisSpecial",
                     "expectedValue": true
                 },
                 {

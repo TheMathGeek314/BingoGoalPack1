@@ -21,5 +21,19 @@ namespace BingoGoalPack1.CustomVariables {
                 BingoSync.Variables.UpdateBoolean(variableName, true);
             });
         }
+
+        public static void CreateMLordsChestTrigger(On.PlayMakerFSM.orig_OnEnable orig, PlayMakerFSM self) {
+            orig(self);
+            if(self == null || self.FsmName != fsmName)
+                return;
+            if(self.gameObject.name == null || self.gameObject.scene == null)
+                return;
+            if(self.gameObject.name == "Mantis Chest (2)" && self.gameObject.scene.name == "Fungus2_31") {
+                self.AddCustomAction(openStateName, () => {
+                    string variableName = $"chestOpen_{GameManager.instance.GetSceneNameString()}_mantisSpecial";
+                    BingoSync.Variables.UpdateBoolean(variableName, true);
+                });
+            }
+        }
     }
 }
