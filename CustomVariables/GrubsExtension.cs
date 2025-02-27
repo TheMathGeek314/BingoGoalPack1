@@ -1,5 +1,4 @@
 ﻿using GlobalEnums;
-
 using Satchel;
 
 namespace BingoGoalPack1.CustomVariables {

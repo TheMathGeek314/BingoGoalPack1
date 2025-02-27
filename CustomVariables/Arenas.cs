@@ -1,6 +1,5 @@
 ﻿using Satchel;
 
-
 namespace BingoGoalPack1.CustomVariables {
     internal static class Arenas {
         public static void CreateArenaTrigger(On.PlayMakerFSM.orig_OnEnable orig, PlayMakerFSM self) {

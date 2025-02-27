@@ -1,6 +1,5 @@
 ﻿using Satchel;
 
-
 namespace BingoGoalPack1.CustomVariables {
     internal static class DreamNailMace {
         private static string fsmName = "enemy_dreamnail_reaction";//or Mace Control

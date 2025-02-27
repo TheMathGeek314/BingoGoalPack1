@@ -1,6 +1,5 @@
 ﻿using Satchel;
 
-
 namespace BingoGoalPack1.CustomVariables {
     internal static class Diary {
         private static string fsmName = "Conversation Control";

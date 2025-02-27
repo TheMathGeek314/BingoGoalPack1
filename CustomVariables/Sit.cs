@@ -1,6 +1,5 @@
 ﻿using Satchel;
 
-
 namespace BingoGoalPack1.CustomVariables {
     internal static class Sit {
         private static string fsmName = "Shop Region";

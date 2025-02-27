@@ -1,6 +1,5 @@
 ﻿using GlobalEnums;
 
-
 namespace BingoGoalPack1.CustomVariables {
     internal static class CoreShard {
         private static string variableName = "collectedCoreShard";

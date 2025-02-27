@@ -1,6 +1,5 @@
 ﻿using Satchel;
 
-
 namespace BingoGoalPack1.CustomVariables {
     internal static class Totems {
         private static string variableName = "soulTotemsHit";

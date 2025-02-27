@@ -1,6 +1,5 @@
 ﻿using Satchel;
 
-
 namespace BingoGoalPack1.CustomVariables {
     internal static class ChestsExtension {
         private static string fsmName = "Chest Control";

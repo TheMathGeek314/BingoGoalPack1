@@ -2,7 +2,6 @@
 using System.Reflection;
 using MonoMod.Cil;
 
-
 namespace BingoGoalPack1.CustomVariables {
     internal static class DreamTreesExtension {
         public static void TrackDreamTrees(ILContext il) {

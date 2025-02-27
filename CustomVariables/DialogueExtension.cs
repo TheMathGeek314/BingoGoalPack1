@@ -1,6 +1,4 @@
-﻿
-
-namespace BingoGoalPack1.CustomVariables {
+﻿namespace BingoGoalPack1.CustomVariables {
     internal static class DialogueExtension {
         public static void StartConversation(On.DialogueBox.orig_StartConversation orig, DialogueBox self, string convName, string sheetName) {
             orig(self, convName, sheetName);
