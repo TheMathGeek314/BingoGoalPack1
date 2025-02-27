@@ -16,9 +16,7 @@ namespace BingoGoalPack1.CustomVariables {
                     BingoSync.Variables.UpdateBoolean(variableName, true);
                 });
             }
-            catch {
-                Modding.Logger.Log("Probably couldn't find the End state idk");
-            }
+            catch {}
         }
     }
 }
