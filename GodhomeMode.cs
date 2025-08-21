@@ -11,17 +11,17 @@ namespace BingoGoalPack1 {
 
         public GodhomeMode() : base("Hall of Gods", new Dictionary<string, BingoGoal>()) { }
 
-        public override string GenerateBoard(int seed) {
-            Random r = new Random(seed);
-            List<BingoGoal> board = new List<BingoGoal>();
-            List<string> newBosses = new List<string>(bosses);
+        public override List<BingoGoal> GenerateBoard(int seed) {
+            Random r = new(seed);
+            List<BingoGoal> board = [];
+            List<string> newBosses = new(bosses);
             do {
                 string level = levels[r.Next(6) == 1 ? 2 : (r.Next(2) == 1 ? 1 : 0)];
                 string boss = newBosses.ElementAt(r.Next(newBosses.Count));
                 newBosses.Remove(boss);
                 board.Add(new BingoGoal(level + boss));
             } while(board.Count < 25);
-            return Jsonify(board);
+            return board;
         }
     }
 }

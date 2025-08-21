@@ -8,56 +8,17 @@ using MonoMod.RuntimeDetour;
 using UnityEngine;
 using BingoSync.CustomGoals;
 using BingoGoalPack1.CustomVariables;
+using System;
+using BingoSync.Interfaces;
 
 namespace BingoGoalPack1 {
-    public class BingoGoalPack1: Mod{
+    public class BingoGoalPack1: Mod {
         new public string GetName() => "BingoGoalPack1";
-        public override string GetVersion() => "1.5.1.2";
-        public override int LoadPriority() => 8;
+        public override string GetVersion() => "1.6.0.0";
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects) {
-            Assembly assembly = Assembly.GetExecutingAssembly();
-
             //set up goal lists
-            Dictionary<string, BingoGoal> vanillaGoals = BingoSync.Goals.GetVanillaGoals();
-
-            processEmbeddedJson(assembly, "Extended");
-            Dictionary<string, BingoGoal> extendedGoals = setupExtendedDict();
-            BingoSync.Goals.RegisterGoalsForCustom("Extended", extendedGoals);
-            Dictionary<string, BingoGoal> extendedPlusGoals = setupExtendedPlusDict();
-            BingoSync.Goals.RegisterGoalsForCustom("Extended+", extendedPlusGoals);
-
-            extendedGoals.AddRange(vanillaGoals);
-            GameMode mode_extended = new("Extended", extendedGoals);
-            BingoSync.Goals.AddGameMode(mode_extended);
-
-            extendedPlusGoals.AddRange(extendedGoals);
-            GameMode mode_extendedPlus = new("Extended+", extendedPlusGoals);
-            BingoSync.Goals.AddGameMode(mode_extendedPlus);
-
-            Dictionary<string, BingoGoal> hardsaveGoals = processEmbeddedJson(assembly, "BenchBingo");
-            setupHardsaveDict(hardsaveGoals);
-            GameMode mode_hardsaves = new("Hardsaves", hardsaveGoals);
-            BingoSync.Goals.AddGameMode(mode_hardsaves);
-            BingoSync.Goals.RegisterGoalsForCustom("Hardsaves", hardsaveGoals);
-
-            Dictionary<string, BingoGoal> grubGoals = processEmbeddedJson(assembly, "GrubBingo");
-            setupGrubDict(grubGoals);
-            GameMode mode_grubs = new("Grubs", grubGoals);
-            BingoSync.Goals.AddGameMode(mode_grubs);
-            BingoSync.Goals.RegisterGoalsForCustom("Grubs", grubGoals);
-            
-            Dictionary<string, BingoGoal> hogGoals = processEmbeddedJson(assembly, "GodhomeBingo");
-            setupHogDict(hogGoals);
-            GameMode mode_godhome = new GodhomeMode();
-            BingoSync.Goals.AddGameMode(mode_godhome);
-            BingoSync.Goals.RegisterGoalsForCustom("Hall of Gods", hogGoals);
-
-            Dictionary<string, BingoGoal> relicGoals = processEmbeddedJson(assembly, "RelicBingo");
-            setupRelicDict(relicGoals);
-            GameMode mode_relics = new("Relics", relicGoals);
-            BingoSync.Goals.AddGameMode(mode_relics);
-            BingoSync.Goals.RegisterGoalsForCustom("Relics", relicGoals);
+            OrderedLoader.OnReadyForGoalsGameModes += SetupGoalsGameModes;
 
             //add hooks
             On.GameManager.AwardAchievement += Neglect.CheckNeglectAchievement;
@@ -87,14 +48,59 @@ namespace BingoGoalPack1 {
             Log("Initialized");
         }
 
-        private Dictionary<string, BingoGoal> processEmbeddedJson(Assembly assembly, string jsonName) {
+        private void SetupGoalsGameModes(object _, EventArgs __)
+        {
+            Assembly assembly = Assembly.GetExecutingAssembly();
+
+            Dictionary<string, BingoGoal> vanillaGoals = BingoSync.Goals.GetVanillaGoals();
+
+            ProcessEmbeddedJson(assembly, "Extended");
+            Dictionary<string, BingoGoal> extendedGoals = SetupExtendedDict();
+            BingoSync.Goals.RegisterGoalsForCustom("Extended", extendedGoals);
+            Dictionary<string, BingoGoal> extendedPlusGoals = SetupExtendedPlusDict();
+            BingoSync.Goals.RegisterGoalsForCustom("Extended+", extendedPlusGoals);
+
+            extendedGoals.AddRange(vanillaGoals);
+            GameMode mode_extended = new("Extended", extendedGoals);
+            BingoSync.Goals.AddGameMode(mode_extended);
+
+            extendedPlusGoals.AddRange(extendedGoals);
+            GameMode mode_extendedPlus = new("Extended+", extendedPlusGoals);
+            BingoSync.Goals.AddGameMode(mode_extendedPlus);
+
+            Dictionary<string, BingoGoal> hardsaveGoals = ProcessEmbeddedJson(assembly, "BenchBingo");
+            SetupHardsaveDict(hardsaveGoals);
+            GameMode mode_hardsaves = new("Hardsaves", hardsaveGoals);
+            BingoSync.Goals.AddGameMode(mode_hardsaves);
+            BingoSync.Goals.RegisterGoalsForCustom("Hardsaves", hardsaveGoals);
+
+            Dictionary<string, BingoGoal> grubGoals = ProcessEmbeddedJson(assembly, "GrubBingo");
+            SetupGrubDict(grubGoals);
+            GameMode mode_grubs = new("Grubs", grubGoals);
+            BingoSync.Goals.AddGameMode(mode_grubs);
+            BingoSync.Goals.RegisterGoalsForCustom("Grubs", grubGoals);
+
+            Dictionary<string, BingoGoal> hogGoals = ProcessEmbeddedJson(assembly, "GodhomeBingo");
+            SetupHogDict(hogGoals);
+            GameMode mode_godhome = new GodhomeMode();
+            BingoSync.Goals.AddGameMode(mode_godhome);
+            BingoSync.Goals.RegisterGoalsForCustom("Hall of Gods", hogGoals);
+
+            Dictionary<string, BingoGoal> relicGoals = ProcessEmbeddedJson(assembly, "RelicBingo");
+            SetupRelicDict(relicGoals);
+            GameMode mode_relics = new("Relics", relicGoals);
+            BingoSync.Goals.AddGameMode(mode_relics);
+            BingoSync.Goals.RegisterGoalsForCustom("Relics", relicGoals);
+        }
+
+        private Dictionary<string, BingoGoal> ProcessEmbeddedJson(Assembly assembly, string jsonName) {
             string resourceName = assembly.GetManifestResourceNames().Single(str => str.EndsWith("Squares." + jsonName + ".json"));
             Stream stream = assembly.GetManifestResourceStream(resourceName);
             return BingoSync.Goals.ProcessGoalsStream(stream);
         }
 
-        private Dictionary<string, BingoGoal> setupExtendedDict() {
-            Dictionary<string, BingoGoal> output = new();
+        private Dictionary<string, BingoGoal> SetupExtendedDict() {
+            Dictionary<string, BingoGoal> output = [];
             foreach(string goal in goalEnum.extended.extendedList) {
                 output.Add(goal, new BingoGoal(goal));
             }
@@ -111,8 +117,8 @@ namespace BingoGoalPack1 {
             return output;
         }
 
-        private Dictionary<string, BingoGoal> setupExtendedPlusDict() {
-            Dictionary<string, BingoGoal> output = new();
+        private Dictionary<string, BingoGoal> SetupExtendedPlusDict() {
+            Dictionary<string, BingoGoal> output = [];
             foreach(string goal in goalEnum.extended.extendedPlusList) {
                 output.Add(goal, new BingoGoal(goal));
             }
@@ -137,7 +143,7 @@ namespace BingoGoalPack1 {
             return output;
         }
 
-        private void setupHardsaveDict(Dictionary<string, BingoGoal> goals) {
+        private void SetupHardsaveDict(Dictionary<string, BingoGoal> goals) {
             goals[goalEnum.hardsaves.archives].exclusions.Add(goalEnum.grubs.archives);
             goals[goalEnum.hardsaves.basinToll].exclusions.Add(goalEnum.extended.grubsBasin);
             goals[goalEnum.hardsaves.basinToll].exclusions.Add(goalEnum.extended.tollBenches);
@@ -235,7 +241,7 @@ namespace BingoGoalPack1 {
             goals[goalEnum.hardsaves.waterways].exclusions.Add(goalEnum.grubs.waterwaysCenter);
         }
 
-        private void setupGrubDict(Dictionary<string, BingoGoal> goals) {
+        private void SetupGrubDict(Dictionary<string, BingoGoal> goals) {
             goals[goalEnum.grubs.xroadsWall].exclusions.Add(goalEnum.vanilla.grubsCross);
             goals[goalEnum.grubs.xroadsGuarded].exclusions.Add(goalEnum.vanilla.grubsCross);
             goals[goalEnum.grubs.xroadsSpike].exclusions.Add(goalEnum.vanilla.grubsCross);
@@ -311,7 +317,7 @@ namespace BingoGoalPack1 {
             goals[goalEnum.grubs.keCenter].exclusions.Add(goalEnum.relics.journalMarkothDive);
         }
 
-        private void setupHogDict(Dictionary<string, BingoGoal> goals) {
+        private void SetupHogDict(Dictionary<string, BingoGoal> goals) {
             string att = GodhomeMode.levels[0];
             string asc = GodhomeMode.levels[1];
             string rad = GodhomeMode.levels[2];
@@ -325,7 +331,7 @@ namespace BingoGoalPack1 {
             }
         }
 
-        private void setupRelicDict(Dictionary<string, BingoGoal> goals) {
+        private void SetupRelicDict(Dictionary<string, BingoGoal> goals) {
             goals[goalEnum.relics.journalAboveKings].exclusions.Add(goalEnum.hardsaves.kingsStag);
             goals[goalEnum.relics.journalAboveKings].exclusions.Add(goalEnum.relics.sealKings);
             goals[goalEnum.relics.journalBelowOgres].exclusions.Add(goalEnum.relics.sealSporgs);
