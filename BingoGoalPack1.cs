@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using MonoMod.Utils;
 using MonoMod.RuntimeDetour;
+using MonoMod.Utils;
 using UnityEngine;
 using BingoSync.CustomGoals;
 using BingoSync.Interfaces;
@@ -48,8 +48,7 @@ namespace BingoGoalPack1 {
             Log("Initialized");
         }
 
-        private void SetupGoalsGameModes(object _, EventArgs __)
-        {
+        private void SetupGoalsGameModes(object _, EventArgs __) {
             Assembly assembly = Assembly.GetExecutingAssembly();
 
             Dictionary<string, BingoGoal> vanillaGoals = BingoSync.Goals.GetVanillaGoals();
