@@ -1,11 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<HollowKnightRefs>HollowKnightRefs not set</HollowKnightRefs>
-		<HollowKnightRefs Condition="Exists('C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed')">C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed</HollowKnightRefs>
-		<HollowKnightRefs Condition="Exists('C:\GOG Games\Hollow Knight\Hollow Knight_Data\Managed')">C:\GOG Games\Hollow Knight\Hollow Knight_Data\Managed</HollowKnightRefs>
-		<HollowKnightRefs Condition="Exists('Z:\Games\Hollow Knight\Hollow Knight_Data\Managed')">Z:\Games\Hollow Knight\Hollow Knight_Data\Managed</HollowKnightRefs>
-		<ExportDir>C:/Hollow Knight Mods/__Exports</ExportDir>
-	</PropertyGroup>
+    <!-- Change this to the path of your modded HK installation -->
+    <HollowKnightRefs>C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\</HollowKnightRefs>
+    <!-- Change this to the path where you want the ready-to-upload exports to be -->
+    <ExportDir>D:\Hollow Knight Mods\_exports\</ExportDir>
+    <!-- Uncomment this to generate a documentation file to be included with the mod -->
+    <!--<DocumentationFile>$(OutputPath)/$(AssemblyTitle).xml</DocumentationFile>-->
+  </PropertyGroup>
   <PropertyGroup>
     <RootNamespace>BingoGoalPack1</RootNamespace>
     <AssemblyName>BingoGoalPack1</AssemblyName>
@@ -58,7 +59,7 @@
       <HintPath>$(HollowKnightRefs)/Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="BingoSync">
-      <HintPath>$(HollowKnightRefs)/Mods/BingoSync/BingoSync.dll</HintPath>
+      <HintPath>..\_dependencies\BingoSync.dll</HintPath>
     </Reference>
     <Reference Include="GalaxyCSharp">
       <HintPath>$(HollowKnightRefs)/GalaxyCSharp.dll</HintPath>
@@ -91,7 +92,7 @@
       <HintPath>$(HollowKnightRefs)/PlayMaker.dll</HintPath>
     </Reference>
     <Reference Include="Satchel">
-      <HintPath>$(HollowKnightRefs)/Mods/Satchel/Satchel.dll</HintPath>
+      <HintPath>..\_dependencies\Satchel.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition">
       <HintPath>$(HollowKnightRefs)/System.ComponentModel.Composition.dll</HintPath>
